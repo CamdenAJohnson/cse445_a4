@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NationalPark xmlns="http://tempuri.org/NationalParks.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://tempuri.org/NationalParks.xsd NationalParks.xsd">
+
+	<!-- Example from Figure 1 -->
+	<NationalPark Rating="4.9">
+		<Name>Grand Canyon</Name>
+		<Phone>928-638-7496</Phone>
+		<Phone>888-297-2757</Phone>
+		<Phone>866-499-2574</Phone>
+		<Address>
+			<Number>8</Number>
+			<Street>S Entrance Road</Street>
+			<City>Grand Canyon</City>
+			<State>AZ</State>
+			<Zip>86023</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- Arizona National Parks -->
+	<NationalPark Rating="4.8">
+		<Name>Saguaro National Park</Name>
+		<Phone>520-733-5100</Phone>
+		<Phone>520-733-5153</Phone>
+		<Address NearestAirport="Tucson International">
+			<Number>3693</Number>
+			<Street>S Old Spanish Trail</Street>
+			<City>Tucson</City>
+			<State>AZ</State>
+			<Zip>85730</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark Rating="4.7">
+		<Name>Petrified Forest National Park</Name>
+		<Phone>928-524-6228</Phone>
+		<Address NearestAirport="Flagstaff Pulliam">
+			<Number>1</Number>
+			<Street>Park Road</Street>
+			<City>Petrified Forest</City>
+			<State>AZ</State>
+			<Zip>86028</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- Texas Parks -->
+	<NationalPark Rating="4.9">
+		<Name>Big Bend National Park</Name>
+		<Phone>432-477-2251</Phone>
+		<Phone>432-477-1158</Phone>
+		<Address NearestAirport="Midland International">
+			<Number>1</Number>
+			<Street>Panther Junction</Street>
+			<City>Big Bend National Park</City>
+			<State>TX</State>
+			<Zip>79834</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark>
+		<Name>Guadalupe Mountains National Park</Name>
+		<Name>Guadalupe Mountain Park</Name>
+		<Phone>915-828-3251</Phone>
+		<Address>
+			<Number>400</Number>
+			<Street>Pine Canyon Rd</Street>
+			<City>Salt Flat</City>
+			<State>TX</State>
+			<Zip>79847</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- Florida Parks -->
+	<NationalPark Rating="4.5">
+		<Name>Everglades National Park</Name>
+		<Address NearestAirport="Miami International">
+			<Number>40001</Number>
+			<Street>State Road 9336</Street>
+			<City>Homestead</City>
+			<State>FL</State>
+			<Zip>33034
+		</Address>
+	</NationalPark>
+
+	<NationalPark>
+		<Name>Biscayne National Park</Name>
+		<Phone>305-230-7275</Phone>
+		<Address NearestAirport="Miami International">
+			<Number>9700</Number>
+			<Street>SW 328th St</Street>
+			<City>Homestead</City>
+			<State>FL</State>
+			<Zip>33033</Zip>
+	</NationalPark>
+
+	<NationalPark Rating="4.8">
+		<Name>Dry Tortugas National Park</Name>
+		<Phone>305-242-7700</Phone>
+		<Phone>305-242-7770</Phone>
+		<Address NearestAirport="Key West International">
+			<Number>40001</Number>
+			<Street>SR-9336</Street>
+			<City>Homestead</City>
+			<State>FL</State>
+			<Zip>33034</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- New York Parks -->
+	<NationalPark Rating="4.7">
+		<Name>Statue of Liberty National Monument</Name>
+		<Phone>212-363-3200</Phone>
+		<Address NearestAirport="Newark Liberty International">
+			<Number>1</Number>
+			<Street>Liberty Island</Street>
+			<City>New York</City>
+			<State>NY</State>
+			<Zip>10004</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark>
+		<Name>Theodore Roosevelt Inaugural National Historic Site</Name>
+		<Phone>716-884-0095</Phone>
+		<Address NearestAirport="Buffalo Niagara International">
+			<Number>641</Number>
+			<Street>Delaware Ave</Street>
+			<State>NY</State>
+			<Zip>14202</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark Rating="4.8">
+		<Name>Women's Rights National Historical Park</Name>
+		<Phone>315-568-0024</Phone>
+		<Address NearestAirport="Syracuse Hancock International">
+			<Number>136</Number>
+			<Street>Fall St</Street>
+			<City>Seneca Falls</City>
+			<State>NY</State>
+			<Zip>13148</Zip>
+		</Address>
+</NationalParks>

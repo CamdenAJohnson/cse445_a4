@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/NationalParks.xsd" targetNamespace="http://tempuri.org/NationalParks.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+	<xsd:annotation>
+		<xsd:documentation xml:lang="en"> Directory of National Parks </xsd:documentation>
+	</xsd:annotation>
+
+	<!-- Root Element Declaration -->
+	<xsd:element name="NationalParks" type="NationalParksType"/>
+
+	<!-- Complex Type Definitions -->
+	<xsd:complexType name="NationalParksType">
+		<xsd:sequence>
+			<xsd:element name="NationalPark" type="NationalParkType" minOccurs="1" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="NationalParkType">
+		<xsd:sequence>
+			<!-- Name -->
+			<xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+			<!-- Phone -->
+			<xsd:element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
+			<!-- Address -->
+			<xsd:element name="Address" type="AddressType" minOccurs="1" maxOccurs="1"/>
+		</xsd:sequence>
+		<!-- Rating -->
+		<xsd:attribute name="Rating" type="xsd:string" use="optional"/>
+	</xsd:complexType>
+
+	<!-- Address -->
+	<xsd:complexType name="AddressType">
+		<xsd:sequence>
+			<!-- Number -->
+			<xsd:element name="Number" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+			<!-- Street -->
+			<xsd:element name="Street" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+			<!-- City -->
+			<xsd:element name="City" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+			<!-- State -->
+			<xsd:element name="State" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+			<!-- Zip -->
+			<xsd:element name="Zip" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+		</xsd:sequence>
+		<!-- NearestAirport -->
+		<xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
+	</xsd:complexType>
+
+</xsd:schema>
