@@ -2,7 +2,7 @@
 <NationalParks
 	xmlns="https://camdenajohnson.github.io/CSE445NationalParks"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	targetNamespace="https://camdenajohnson.github.io/CSE445NationalParks https://camdenajohnson.github.io/CSE445NationalParks/NationalParks.xsd">
+	xsi:schemaLocation="https://camdenajohnson.github.io/CSE445NationalParks https://camdenajohnson.github.io/CSE445NationalParks/NationalParks.xsd">
 
 	<NationalPark Rating="4.9">
 	    <Name>Grand Canyon</Name>
