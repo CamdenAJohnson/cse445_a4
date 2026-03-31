@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-   xmlns="urn:nationalparks"
-   targetNamespace="urn:nationalparks"
+   xmlns="https://camdenajohnson.github.io/cse445_a4"
+   targetNamespace="https://camdenajohnson.github.io/cse445_a4"
    elementFormDefault="qualified" attributeFormDefault="unqualified">
 
    <xsd:annotation>
